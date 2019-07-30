@@ -1,0 +1,11 @@
+server:
+  port: 8061
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://${home}/config-repo
+          search-paths: 'config'
+
