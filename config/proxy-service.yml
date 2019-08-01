@@ -9,11 +9,11 @@ eureka:
 zuul:
   routes:
     department:
-      path: department/**
+      path: /department/**
       serviceId: department-service
     organization:
-      path: organization/**
+      path: /organization/**
       serviceId: organization-service
     employee:
-      path: employee/**
+      path: /employee/**
       serviceId: employee-service
